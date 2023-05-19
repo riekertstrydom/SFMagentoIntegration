@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rieke\\Source\\repos\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rieke\\Source\\repos\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rieke\\Source\\repos\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions.csproj",
+        "projectName": "CCB.SFMagentoIntegration.Functions",
+        "projectPath": "C:\\Users\\rieke\\Source\\repos\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions.csproj",
+        "packagesPath": "C:\\Users\\rieke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rieke\\Source\\repos\\CCB.SFMagentoIntegration.Functions\\CCB.SFMagentoIntegration.Functions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rieke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
